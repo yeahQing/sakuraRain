@@ -6,6 +6,8 @@
 
 樱花雨主要通过一个渲染器类 **(RENDERER)** 和一个樱花类 **(CHERRY_BLOSSOM)** 实现。
 
+### 渲染器实现
+
 1. 使用Jquery调用渲染器
 
 ```javascript
@@ -129,7 +131,9 @@ render: function() {
 
 ```
 
-5. 樱花对象实现
+### 樱花实现
+
+1. 樱花对象实现
 
 樱花类的构造函数需要两个参数，1. 渲染器对象 2. 是否随机
 
@@ -142,7 +146,7 @@ var CHERRY_BLOSSOM = function (renderer, isRandom) {
 
 ```
 
-樱花类的属性成员和函数成员(类原型)
+2. 樱花类的属性成员和函数成员(类原型)
 
 ```javascript
 
